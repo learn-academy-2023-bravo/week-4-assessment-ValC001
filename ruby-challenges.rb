@@ -9,6 +9,13 @@ reposts2 = 42
 # Expected output: '42 is even'
 reposts3 = 221
 # Expected output: '221 is odd'
+def even_or_odd(7)
+    if number % 2 == 0
+        puts "#{number} is even"
+    else 
+        puts "#{number} is odd"
+    end
+end
 
 
 

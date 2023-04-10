@@ -103,10 +103,12 @@ describe("upDownVoterTallier",() => {
   
 
 expect(upDownVoterTallier(votes1)).toEqual("11")
-expect(colorShuffler(votes2))).toEqual("-31")
+expect(colorShuffler(votes2)).toEqual("-31")
+})
+
 
   
-  })
+
 
 // b) Create the function that makes the test pass.
 //Pseudo Code 
