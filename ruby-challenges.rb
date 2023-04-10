@@ -24,6 +24,7 @@ beatles_album3 = 'Abbey Road'
 
 
 
+
 # -------------------3) Create a method that takes in a string and checks if the string is a palindrome. A palindrome is the same word spelled forward or backward. Use the test variables provided.
 
 palindrome_tester1 = 'Racecar'
