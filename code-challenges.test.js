@@ -95,15 +95,11 @@ function colorShuffler(colors1){
 // Create expect statement with toEqual statement with expected results.
 describe("upDownVoterTallier",() => {
   it ("returns an array, that takes in an object that contains up votes and down votes and returns the end tally",() =>
-
-
     //const votes1 = { upVotes: 13, downVotes: 2 }
     //const votes2 = { upVotes: 2, downVotes: 33 }
-
-  
-
-expect(upDownVoterTallier(votes1)).toEqual("11")
-expect(colorShuffler(votes2)).toEqual("-31")
+    expect(upDownVoterTallier(votes1)).toEqual("11")
+    expect(colorShuffler(votes2)).toEqual("-31")
+  })
 })
 
 
@@ -151,5 +147,20 @@ function upDownVoterTallier(votes1){
 const dataArray1 = ["array", "object", "number", "string", "Boolean"]
 const dataArray2 = ["string", "null", "Boolean", "string", "undefined"]
 // Expected output: ["array", "object", "number", "string", "Boolean", "null", "undefined"]
+// Pseudo Code
+//Create a describe statement named duplicateRemover
+//Create a IT statment that will take in the arguement.
+// Add the consts
+// Create an expect /it function that will combine both arrays into one.
+// 
+describe("duplicateRemover", ()=>{
+  it("Takes in 2 arrays as arguements and returns one array with no duplicate values.", ()=>{
+      const dataArray1 =["array","object","number","string", "Boolean"]
+      const dataArray2 = ["string","null","Boolean","string","undefined"]
+      expect(duplicateRemover(dataArray1 + dataArray2)).toEqual(["array", "object", "number", "string", "Boolean", "null", "undefined"])
+  })
+})
+
+
 
 // b) Create the function that makes the test pass.
