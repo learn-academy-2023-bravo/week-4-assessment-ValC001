@@ -127,19 +127,6 @@ function upDownVoterTallier(votes1){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 3) Create a function that takes in two arrays as arguments and returns one array with no duplicate values. STRETCH: Use the spread operator to pass in a dynamic number of arguments.
 
 // a) Create a test with an expect statement using the variables provided.
@@ -164,3 +151,5 @@ describe("duplicateRemover", ()=>{
 
 
 // b) Create the function that makes the test pass.
+ const duplicateRemover = duplicateRemover (dataArray1,dataArray2);
+ console.log(duplicateRemover);

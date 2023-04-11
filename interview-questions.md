@@ -14,7 +14,7 @@ Researched answer:  Object oriented programming  is a data structure that define
 
 1. What is the difference between a Float and an Integer in Ruby?
 
-Your answer: 
+Your answer: An integer is a functional component & float is a number with fractional compononent. For example, integer = 5 , float = 5.3
 
 Researched answer:
 
